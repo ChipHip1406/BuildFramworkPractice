@@ -18,6 +18,7 @@ public class BaseTest{
 
         System.setProperty("webdriver.chrome.driver","src/main/resources/driver/chromedriver");
         driver = new ChromeDriver();
+//        12345678;
         //Maximize the browser
         driver.manage().window().maximize();
         // Launch Website
